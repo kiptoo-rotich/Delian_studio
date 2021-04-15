@@ -1,5 +1,76 @@
-.header{
+.header {
     background-image: url(../assets/backgrounds/h_img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.services {
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 5%;
+    background-position: center;
+}
+
+.services>h3 {
+    font-size: 30px;
+}
+
+.services>p {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contact {
+    background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.f-flex {
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    padding-top: 15%;
+    padding-bottom: 2%;
+}
+
+.header>p {
+    padding-bottom: 10%;
+}
+
+.header>h1 {
+    font-size: 60px;
+    padding-top: 1%;
+    line-height: 130px;
+}
+
+.about {
+    text-align: center;
+    width: 60%;
+    margin-top: 3%;
+}
+
+.about>p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+
+.whatWeDo{
+    text-align: center;
+    padding-top: 4%;
+}
+
+.whatWeDo>h3{
+    padding-bottom: 3%;
 }
