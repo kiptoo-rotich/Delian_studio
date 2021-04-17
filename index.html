@@ -40,38 +40,75 @@
     <div class="container whatWeDo">
         <h3>WHAT WE DO</h3>
         <div class="row">
-            <div class="col-md-4">
-                <img src="assets/services_icons/design_icon.png" alt="design">
+            <div class="col-md-4 design">
+                <img src="assets/services_icons/design_icon.png" alt="design" id="design">
                 <p>DESIGN</p>
+                <p class="design-text">Our design practice offers a full range of services including brand strategy,
+                    iteration and visual
+                    design and user experience testing</p>
             </div>
-            <div class="col-md-4">
-                <img src="assets/services_icons/dev_icon.png" alt="Development">
+            <div class="col-md-4 development">
+                <img src="assets/services_icons/dev_icon.png" alt="Development" id="development">
                 <p>DEVELOPMENT</p>
+                <p class="development-text">All engineers are fluent in the latest enterprise, mobile and web develoment
+                    technologies.</p>
+                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices
+                    such as test-driven development and pair programming.</p>
             </div>
-            <div class="col-md-4">
-                <img src="assets/services_icons/product_icon.png" alt="product">
+            <div class="col-md-4 product">
+                <img src="assets/services_icons/product_icon.png" alt="product" id="product">
                 <p>PRODUCT MANAGEMENT</p>
+                <p class="product-text">Planning and development is iterative. Because we are constantly coding and
+                    testing, the products we build are always ready to go live.</p>
+                <p>This iterative process allows for changes as business requirements evolve.</p>
             </div>
 
         </div>
     </div>
-    <div class="conatiner">
+    <div class="container portfolio">
         <h3>PORTFOLIO</h3>
-        <img src="assets/portfolio/work1.jpg" alt="Project one">
-        <img src="assets/portfolio/work2.jpg" alt="Project two">
-        <img src="assets/portfolio/work3.jpg" alt="Project three">
-        <img src="assets/portfolio/work4.jpg" alt="Project four">
-        <img src="assets/portfolio/work5.jpg" alt="Project five">
-        <img src="assets/portfolio/work6.jpg" alt="Project six">
-        <img src="assets/portfolio/work7.jpg" alt="Project seven">
-        <img src="assets/portfolio/work8.jpg" alt="Project eight">
+        <div class="row project">
+            <div class="col-md-3">
+                <img src="assets/portfolio/work1.jpg" alt="Project one">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work2.jpg" alt="Project two">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work3.jpg" alt="Project three">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work4.jpg" alt="Project four">
+            </div>
+        </div>
+        <div class="row project">
+            <div class="col-md-3">
+                <img src="assets/portfolio/work5.jpg" alt="Project five">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work6.jpg" alt="Project six">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work7.jpg" alt="Project seven">
+            </div>
+            <div class="col-md-3">
+                <img src="assets/portfolio/work8.jpg" alt="Project eight">
+            </div>
+        </div>
     </div>
 
     <div class="contact">
         <h3>CONTACT US</h3>
-        <input type="text" name="name" id="name" placeholder="Name...">
-        <input type="email" name="email" id="email" placeholder="Email...">
-        <input type="textbox" name="message" id="message" placeholder="Your message here...">
+        <div class="nameEmail row">
+            <div class="col-md-6">
+                <input type="text" name="name" id="name" placeholder="Name..." class="">
+            </div>
+            <div class="col-md-6">
+                <input type="email" name="email" id="email" placeholder="Email..." class="">
+            </div>
+        </div>
+        <textarea name="message" id="message" placeholder="Your message here..." class="" cols="3" role="5"></textarea><br>
+        <button class="btn btn-primary" onclick="submit()">Submit</button>
     </div>
 
     <div class="contact_image">
@@ -84,7 +121,8 @@
         <img src="assets/social_icons/behance.png" alt="behance">
         <img src="assets/social_icons/you_tube.png" alt="you_tube"><img src="assets/social_icons/flickr.png"
             alt="flickr">
-        <p>DELANI STUDIO<br>2019</p>
+        <p>DELANI STUDIO</p>
+        <p>2019</p>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/script.js"></script>
