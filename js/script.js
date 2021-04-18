@@ -1,36 +1,26 @@
 //User interface logic
 function submit() {
 
-    if (userName != null && emailAddress != null && message != null) {
-        alert(validateInput());
+    let userName = document.querySelector("#name").value;
+    let emailAddress = document.querySelector("#email").value;
+    let message = document.querySelector("#message").value;
+    if (userName != "" && emailAddress != "" && message != "") {
+        if (emailAddress.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/g)) {
+            $("#username").text(userName),
+                $(".bs-success").show();
+            preventDefault();
+        } else {
+            $(".bs-warning").show();
+            preventDefault();
+        }
     } else {
-        alert("Kindly provide all details");
+        $(".bs-null").show();
+        preventDefault();
     }
     location.reload();
 }
 
 //Back-end logic
-var validateInput = function () {
-    let regex = /aeiou/g;
-    let message = document.querySelector("#message").value;
-    let userName = document.querySelector("#name").value;
-    if (userName >= 3 && message.match(regex)) {
-        validateEmail();
-    } else {
-        return Error;
-    }
-
-}
-
-var validateEmail = function () {
-    let emailAddress = document.querySelector("#email").value;
-    let validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/g;
-    if (emailAddress.match(validRegex)) {
-        return emailAddress;
-    } else {
-        return false;
-    }
-}
 
 
 $(document).ready(function () {
