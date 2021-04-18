@@ -21,7 +21,7 @@ The subscriber is not actually subscribed to the business.
 ## Technologies Used
 * HTML
 * CSS
-* Javascript
+* Javascript/jQuery
 ## Support and contact details
 Kindly let us know your feedbacks and concerns and you can also ask questions through our email address rotichenoch27@gmail.com.
 ### License
