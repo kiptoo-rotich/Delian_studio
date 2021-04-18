@@ -10,12 +10,12 @@ Delian studio is a design and development studio whose products are as per custo
 * Clone the repo {git clone https://github.com/rotich1/delian-studio }
 * Now you have the project in your local machine
 ## Behaviour
-|Behaviour   | Input     |  Output |
-|------------|:---------:|---------------------------------:|
-|Check if email format is correct|jogndoegmail.com|Check your email address and retry|
-|Check if all fields and provided | Joh Doe johndoe@gmail.com |Thank John Doe. We'll be in touch using johndoe@gmail.com |
+| Behaviour                        |           Input           |                                                     Output |
+| -------------------------------- | :-----------------------: | ---------------------------------------------------------: |
+| Check if email format is correct |     johndoegmail.com      |                         Check your email address and retry |
+| Check if all fields and provided | Joh Doe johndoe@gmail.com | Thanks John Doe. We'll be in touch using johndoe@gmail.com |
 ### Live Site
-View [live](https://github.com/rotich1/delian-studio)
+View [live](https://rotich1.github.io/delian-studio/)
 ## Known Bugs
 The subscriber is not actually subscribed to the business.
 ## Technologies Used
