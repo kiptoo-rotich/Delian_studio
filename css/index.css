@@ -17,11 +17,6 @@
     background-position: center;
 }
 
-.portfolio {
-    text-align: center;
-    margin-top: 4%;
-}
-
 .project>div>img {
     height: 35vh;
     width: 37vh;
@@ -113,7 +108,7 @@
     font-size: 17px;
 }
 
-.whatWeDo {
+.whatWe, .portfolio {
     text-align: center;
     padding-top: 4%;
 }
@@ -122,22 +117,77 @@
     padding-bottom: 3%;
 }
 
-.contact_image{
+.contact_image {
     text-align: center;
     line-height: 20px;
     padding: 30px 0px 20px 0px;
 }
 
-.contact_image>img{
+.contact_image>img {
     margin-bottom: 10px;
 }
 
-.contact_image>p{
+.contact_image>p {
     padding-top: 1%;
     font-size: 20px;
 }
 
-::placeholder{
+::placeholder {
     font-size: 20px;
     color: white;
+}
+
+.design-text, .development-text, .product-text {
+    display: none;
+}
+
+.imageOpacity {
+    opacity: 0.5;
+}
+
+
+.projectOne {
+    background-image: url(../assets/portfolio/work4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectTwo {
+    background-image: url(../assets/portfolio/work3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectThree {
+    background-image: url(../assets/portfolio/work2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectFour {
+    background-image: url(../assets/portfolio/work1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.project1, .project2, .project3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: white;
+    padding: 20%;
+    opacity: 0.8;
+    display: none;
 }
