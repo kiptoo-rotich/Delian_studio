@@ -80,7 +80,6 @@
 }
 
 .header {
-    text-align: center;
     color: white;
     padding-top: 15%;
     padding-bottom: 2%;
@@ -91,9 +90,9 @@
 }
 
 .header>h1 {
-    font-size: 60px;
+    font-size: 7vh;
     padding-top: 1%;
-    line-height: 130px;
+    line-height: 120px;
 }
 
 .about {
@@ -225,5 +224,12 @@
     background-color: white;
     padding: 20%;
     opacity: 0.8;
+    display: none;
+}
+
+.bs-warning, .bs-success, .bs-null{
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
     display: none;
 }
