@@ -110,7 +110,8 @@
 
 .whatWe, .portfolio {
     text-align: center;
-    padding-top: 4%;
+    padding-top: 2%;
+    padding-bottom: 4%;
 }
 
 .whatWeDo>h3 {
@@ -144,7 +145,6 @@
 .imageOpacity {
     opacity: 0.5;
 }
-
 
 .projectOne {
     background-image: url(../assets/portfolio/work4.jpg);
@@ -182,7 +182,43 @@
     width: 30vh;
 }
 
-.project1, .project2, .project3{
+.projectFive {
+    background-image: url(../assets/portfolio/work5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectSix {
+    background-image: url(../assets/portfolio/work6.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectSeven {
+    background-image: url(../assets/portfolio/work7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.projectEight {
+    background-image: url(../assets/portfolio/work8.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+    height: 25vh;
+    width: 30vh;
+}
+
+.project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
