@@ -7,6 +7,7 @@ function submit() {
     if (userName != "" && emailAddress != "" && message != "") {
         if (emailAddress.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/g)) {
             $("#username").text(userName),
+            $("#subscribeEmail").text(emailAddress);
                 $(".bs-success").show();
             preventDefault();
         } else {
