@@ -11,13 +11,12 @@ function submit() {
             preventDefault();
         } else {
             $(".bs-warning").show();
-            preventDefault();
+            preventDefault(5000);
         }
     } else {
         $(".bs-null").show();
-        preventDefault();
+        preventDefault(5000);
     }
-    location.reload();
 }
 
 //Back-end logic
@@ -130,3 +129,7 @@ $(document).ready(function () {
     });
 
 });
+
+function reset() {
+    location.reload();
+}
