@@ -89,4 +89,54 @@ $(document).ready(function () {
         $(".project3").hide();
     });
 
+    $("div.projectFour").mouseover(function () {
+        $("p.project4").addClass(".project4");
+        $(".project4").show();
+    });
+
+    $("div.projectFour").mouseout(function () {
+        $("p.project4").addClass(".project4");
+        $(".project4").hide();
+    });
+
+    $("div.projectFive").mouseover(function () {
+        $("p.project5").addClass(".project5");
+        $(".project5").show();
+    });
+
+    $("div.projectFive").mouseout(function () {
+        $("p.project5").addClass(".project5");
+        $(".project5").hide();
+    });
+
+    $("div.projectSix").mouseover(function () {
+        $("p.project6").addClass(".project6");
+        $(".project6").show();
+    });
+
+    $("div.projectSix").mouseout(function () {
+        $("p.project6").addClass(".project6");
+        $(".project6").hide();
+    });
+
+    $("div.projectSeven").mouseover(function () {
+        $("p.project7").addClass(".project7");
+        $(".project7").show();
+    });
+
+    $("div.projectSeven").mouseout(function () {
+        $("p.project7").addClass(".project7");
+        $(".project7").hide();
+    });
+
+    $("div.projectEight").mouseover(function () {
+        $("p.project8").addClass(".project8");
+        $(".project8").show();
+    });
+
+    $("div.projectEight").mouseout(function () {
+        $("p.project8").addClass(".project8");
+        $(".project8").hide();
+    });
+
 });
